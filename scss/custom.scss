@@ -4,10 +4,13 @@ $principal2: rgb(137, 247, 238);
 $principal3: rgb(194, 194, 194);
 $img-hover: rgba(137, 227, 210, 0.9);
 $color: rgba(194, 215, 213, 0.702);
+
 //CAMBIANDO VARIBALES DE BOOTSTRAP
 $primary: $principal3;
 $dark: $principal3;
 $--bs-nav-link-hover-color: $principal1;
+
+
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 
