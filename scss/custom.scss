@@ -1,16 +1,34 @@
 // VARIABLES
 $principal1: rgb(35, 165, 154);
 $principal2: rgb(137, 247, 238);
-$principal3: rgb(194, 194, 194);
+$principal3: rgba(233, 240, 239, 0.932);
+$principal4: rgb(67, 220, 207);
+$principal5: rgba(86, 89, 89, 0.932);
 $img-hover: rgba(137, 227, 210, 0.9);
-$color: rgba(194, 215, 213, 0.702);
 
-//CAMBIANDO VARIBALES DE BOOTSTRAP
-$primary: $principal3;
-$dark: $principal3;
-$--bs-nav-link-hover-color: $principal1;
+
+$theme-colors: (
+  "primary":    $principal4,
+  "secondary":  $principal3,
+  "success":    green,
+  "info":       yellow,
+  "warning":    grey,
+  "danger":     black,
+  "light":      $principal3,
+
+);
+
+
+
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+.img-fluid-2 {
+    width: 100%;
+    height: auto;
+}
 
+.btn-color-letra:hover{
+    color: $principal5;
+}
