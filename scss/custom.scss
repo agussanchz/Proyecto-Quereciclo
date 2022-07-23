@@ -10,10 +10,10 @@ $img-hover: rgba(137, 227, 210, 0.9);
 $theme-colors: (
   "primary":    $principal4,
   "secondary":  $principal3,
-  "success":    green,
+  "success":    $img-hover,
   "info":       yellow,
   "warning":    grey,
-  "danger":     black,
+  "danger":     $principal5,
   "light":      $principal3,
 
 );
@@ -24,6 +24,16 @@ $theme-colors: (
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.img-pregunta {
+  width: 300px;
+  height: auto;
+}
+
 .img-fluid-2 {
     width: 100%;
     height: auto;
@@ -32,3 +42,4 @@ $theme-colors: (
 .btn-color-letra:hover{
     color: $principal5;
 }
+
